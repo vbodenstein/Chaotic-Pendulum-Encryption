@@ -1,6 +1,7 @@
 # Chaotic-Pendulum-Encrytion
 This is the project page for our Chatoic Pendulum Encrytion system
-
+github markdown sheet for how to do stuff here
+(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 
@@ -9,8 +10,11 @@ This is the project page for our Chatoic Pendulum Encrytion system
 
 ## Budget
 
-github markdown sheet for how to do stuff
-(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 
 ## Circuits 

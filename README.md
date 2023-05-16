@@ -1,7 +1,11 @@
 # Chaotic-Pendulum-Encrytion
 This is the project page for our Chatoic Pendulum Encrytion system
+
+
+
 github markdown sheet for how to do stuff here
 (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 
 Proposal for reference:

@@ -15,4 +15,4 @@ github markdown sheet for how to do stuff
 
 ## Circuits 
 
-![alt text](/Users/veronicabodenstein/Desktop/Screen Shot 2023-05-15 at 5.27.41 PM.png)
+![alt text](/Users/veronicabodenstein/Desktop/Screen Shot 2023-05-15 at 5.27.41 PM.png "Screen Shot 2023-05-15 at 5.27.41 PM")

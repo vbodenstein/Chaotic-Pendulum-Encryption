@@ -4,6 +4,10 @@ github markdown sheet for how to do stuff here
 (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
+Proposal for reference:
+[Chaos_Based_Device_for_Symmetric_Stream_Cipher.pdf](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/files/11482849/Chaos_Based_Device_for_Symmetric_Stream_Cipher.pdf)
+
+
 
 ## Table of contents
 

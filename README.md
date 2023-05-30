@@ -51,7 +51,6 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 
 
-
 ## Control of Pendulum
 
 ### Testing and Changes 
@@ -59,6 +58,7 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 ### Randomness
 
 
+# Sensor Data
 
 # Results
 

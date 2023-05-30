@@ -28,7 +28,7 @@ Proposal for reference:
 - [Labjack Control and Code](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#labjack-and-code)
 - [Pendulum Control](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#control-of-pendulum)
     - [Tests](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#testing-and-changes)
-    - [Randomness]
+    - [Randomness](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#randomness)
 - [Results]
 - [Conclusion]
 

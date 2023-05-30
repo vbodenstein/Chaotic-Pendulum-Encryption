@@ -23,8 +23,16 @@ This is the project page for our Chatoic Pendulum Encrytion system. A driven dou
 
 | Part  | Quantity | Cost |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Third Header |
-| Content Cell  | Content Cell  | Third Header |
+| DC Gear Motor  | 3  | $16.31 |
+| Aluminium Rods  | 6  | Third Header |
+| Flanged Ball Bearings  | 5  | $36.91 |
+| Bolts  | 20  | $11.50 |
+| Screws  | 25  | $11. |
+| Hall Effect Sensors  | 20  | $8.04 |
+| Neodymium Magnets  | 18  | $7.82 |
+| H-Bridge  | 5  | $11.5 |
+| Solenoids  | 3  | $37.95 |
+
 
 
 

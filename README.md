@@ -21,7 +21,7 @@ This is the project page for our Chatoic Pendulum Encrytion system. A driven dou
 
 ## Budget
 
-| First Header  | Second Header | Third Header |
+| Part  | Quantity | Cost |
 | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Third Header |
 | Content Cell  | Content Cell  | Third Header |

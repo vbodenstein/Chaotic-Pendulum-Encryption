@@ -13,6 +13,7 @@ This is the project page for our Chatoic Pendulum Encrytion system. A driven dou
 - [Pendulum Control](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#control-of-pendulum)
     - [Tests](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#testing-and-changes)
     - [Randomness](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#randomness)
+- [Sensor Data](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#sensor-data)
 - [Results](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#results)
     -[Examples](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#examples)
 - [Conclusion](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#conclusion)
@@ -51,6 +52,7 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 
 
+
 ## Control of Pendulum
 
 ### Testing and Changes 
@@ -58,7 +60,11 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 ### Randomness
 
 
+
 # Sensor Data
+
+
+
 
 # Results
 

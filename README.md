@@ -1,5 +1,11 @@
 # Chaotic-Pendulum-Encrytion
-This is the project page for our Chatoic Pendulum Encrytion system
+This is the project page for our Chatoic Pendulum Encrytion system. 
+
+A driven double pendulum is by nature a chaotic system, meaning it is highly dependent on, and sensitive, to
+initial conditions. Utilizing this fact, we can extract sequences of numbers producing a randomized key. Each time the
+pendulum starts, it’s path will be different unless the starting conditions are exactly identical. In a physical system
+however, this is nearly impossible, making it an interesting case for encryption. Using hall affect sensors we will
+detect when the pendulum passes certain positions and use this to encode a cipher.
 
 
 

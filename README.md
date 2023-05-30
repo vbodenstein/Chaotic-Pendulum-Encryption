@@ -19,7 +19,7 @@ Proposal for reference:
 ## Budget
 
 | First Header  | Second Header | Third Header |
-| ------------- | ------------- | Third Header |
+| ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Third Header |
 | Content Cell  | Content Cell  | Third Header |
 

@@ -20,7 +20,17 @@ Proposal for reference:
 
 
 ## Table of contents
-- https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#table-of-contents
+- [Budget]
+- [Circuits]
+    - [Motor]
+    - [Sensor]
+    - [Op-amp]
+- [Labjack Control and Code]
+- [Pendulum Control]
+    - [Tests]
+    - [Randomness]
+- [Results]
+- [Conclusion]
 
 
 ## Budget
@@ -34,20 +44,22 @@ Proposal for reference:
 
 ## Circuits 
 
-Motor circuit: Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
+### Motor circuit 
+Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 <img width="974" alt="Screen Shot 2023-05-15 at 5 27 41 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/761e181d-c835-4561-83f3-1964c36d5877">
 
 
 
-Sensor Circuit:
+### Sensor Circuit
 
 ![circuit](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/f747b40a-b0e2-493b-96f8-a94cdae36696)
 
 
-Op-Amp Circuit:
+### Op-Amp Circuit
 
 <img width="980" alt="Screen Shot 2023-05-30 at 11 40 56 AM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/95555882-8c0f-4dd4-89f7-c37b6799e240">
+
 
 
 # LabJack and Code

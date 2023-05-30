@@ -20,7 +20,7 @@ Proposal for reference:
 
 
 ## Table of contents
-- [Budget]
+- [Budget](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#budget)
 - [Circuits]
     - [Motor]
     - [Sensor]

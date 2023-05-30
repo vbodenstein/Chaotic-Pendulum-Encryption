@@ -24,7 +24,7 @@ Proposal for reference:
 - [Circuits](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#circuits)
     - [Motor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#motor-circuit)
     - [Sensor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#sensor-circuit)
-    - [Op-amp]
+    - [Op-amp](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#op-amp-circuit)
 - [Labjack Control and Code]
 - [Pendulum Control]
     - [Tests]

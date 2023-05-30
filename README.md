@@ -22,7 +22,7 @@ Proposal for reference:
 ## Table of contents
 - [Budget](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#budget)
 - [Circuits](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#circuits)
-    - [Motor]
+    - [Motor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#motor-circuit)
     - [Sensor]
     - [Op-amp]
 - [Labjack Control and Code]

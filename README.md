@@ -1,6 +1,7 @@
 # Chaotic-Pendulum-Encrytion
 This is the project page for our Chatoic Pendulum Encrytion system. A driven double pendulum is by nature a chaotic system, meaning it is highly dependent on, and sensitive, to initial conditions. Utilizing this fact, we can extract sequences of numbers producing a randomized key. Each time the pendulum starts, it’s path will be different unless the starting conditions are exactly identical. In a physical system however, this is nearly impossible, making it an interesting case for encryption. Using hall affect sensors we detect when the pendulum passes certain positions and use this to encode a cipher.
 
+<img width="464" alt="Screen Shot 2023-05-31 at 3 39 20 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/2b350b04-814d-4dde-95a9-716105cc330e">
 
 
 ## Table of contents
@@ -57,8 +58,17 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 
 # LabJack and Code
+We use a LabJack U3-HV to control the motor and collect data. 
 
 
+
+The process begins when a message is given to the program to be encrypted and initial conditions specified
+(though, in reality, the latter in unnecessary because each time they will be inherently different anyways). Once
+the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. The hall affect
+sensors on the surface walls will collected data by running a stream where each time the magnets on the pendulum
+pass near the sensor the stream output will read one where otherwise it will read zero (the sensors will likely begin
+collecting data after a brief period of time so that the system will already have diverged for non-identical initial
+conditions. This allows for more variability in the first portion of the key).
 
 
 ## Control of Pendulum

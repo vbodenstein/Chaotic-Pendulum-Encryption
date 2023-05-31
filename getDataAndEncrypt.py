@@ -5,7 +5,6 @@ def getData(frequency, size, cutoff = 0.65):
     trueSize = size*8
     direction = 0
     numbers = np.array([])
-    #i = 0
     while numbers.size < trueSize:
         if direction == 0:
             setFIO(1, 0)
@@ -17,10 +16,10 @@ def getData(frequency, size, cutoff = 0.65):
         while k < trueFrequency:
             a1 = d.getAIN(0)
             a2 = d.getAIN(1)
-            a3 = d.getAIN(2)
+            #a3 = d.getAIN(2)
             #a4 = d.getAIN(3)
             numbers = np.append(numbers, a1)
-            #numbers.append(a2)
+            numbers = np.append(numbers, a2)
             #numbers.append(a3)
             #numbers.append(a4)
             k = k+1
@@ -35,12 +34,14 @@ def getData(frequency, size, cutoff = 0.65):
     numbersFinal = np.multiply(numbersFinal, scaling)
     data = np.where(numbers > cutoff, 1, 0)
     
-    #output
+    #output graph
+    '''
     dataSize = np.linspace(0, 200, numbers.size)
     plt.plot(dataSize, numbers)
     plt.ylim(0.2,0.8)
     plt.xlabel('Data Number')
     plt.ylabel('Volts')
+    '''
     return data
 
 

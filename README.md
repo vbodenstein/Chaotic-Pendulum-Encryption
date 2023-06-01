@@ -73,6 +73,11 @@ conditions. This allows for more variability in the first portion of the key).
 
 ### Control of Pendulum
 
+For the pendulum to swing chaoticly we decrease the frequency of the motor to 
+
+
+
+
 ### Testing and Changes 
 
 Plot for cuttoff voltage value:
@@ -94,11 +99,10 @@ Plot for cuttoff voltage value:
 # Encryption Results
 
 
-### Examples
+### Examples of encryption and decryption: 
 
-(CHANGE)
-In this variation, we will use the known XOR operator used in stream ciphers. It goes as follows.
 
+### Ex. 1 
 Text: Hello World:
 0100100001100101011011000110110001101111001000000101011101101111011100100110110001100100
 
@@ -114,9 +118,13 @@ zQZ c[BT
 In this example the text is short so the chaotic system wouldn’t need to run for very long, the whole process
 would be done quite fast.
 
+### 2
+
 
 
 
 
 
 # Conclusion
+
+In this project w

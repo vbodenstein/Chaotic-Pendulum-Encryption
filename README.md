@@ -71,7 +71,7 @@ collecting data after a brief period of time so that the system will already hav
 conditions. This allows for more variability in the first portion of the key).
 
 
-## Control of Pendulum
+### Control of Pendulum
 
 ### Testing and Changes 
 
@@ -91,7 +91,7 @@ Plot for cuttoff voltage value:
 
 
 
-# Results
+# Encryption Results
 
 
 ### Examples

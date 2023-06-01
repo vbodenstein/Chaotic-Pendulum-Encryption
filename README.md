@@ -1,7 +1,9 @@
 # Chaotic-Pendulum-Encrytion
-This is the project page for our Chatoic Pendulum Encrytion system. A driven double pendulum is by nature a chaotic system, meaning it is highly dependent on, and sensitive, to initial conditions. Utilizing this fact, we can extract sequences of numbers producing a randomized key. Each time the pendulum starts, it’s path will be different unless the starting conditions are exactly identical. In a physical system however, this is nearly impossible, making it an interesting case for encryption. Using hall affect sensors we detect when the pendulum passes certain positions and use this to encode a cipher.
+This is the project page for our Chatoic Pendulum Encrytion system. A driven double pendulum is by nature a chaotic system, meaning it is highly dependent on, and sensitive to initial conditions. The idea behind this project is to utilize this chaos to produce highly variable keys and encrypt data via symmetric stream cypher. We design a pendulum using aluminum, and to detect its motion, we use neodymium magnets and hall effect sensors. To encrypt a message, we collect a series of bytes from the pendulum and use this as our key. 
+Since we can collect data very quickly, an encryption of this sort is theoretically very secure where we can make the key the same length as the message. 
 
-<img width="464" alt="Screen Shot 2023-05-31 at 3 39 20 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/2b350b04-814d-4dde-95a9-716105cc330e">
+
+<img width="448" alt="Screen Shot 2023-06-01 at 3 34 16 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/81fcaa43-f65b-420c-b719-8bccc97bdfee">
 
 
 ## Table of contents
@@ -38,6 +40,7 @@ This is the project page for our Chatoic Pendulum Encrytion system. A driven dou
 
 
 ## Circuits 
+For the setup we used three circuits, one to run the motor, another for the op-amp, and a third to connect three to four the sensors. 
 
 ### Motor circuit 
 Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
@@ -53,28 +56,23 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 ### Op-Amp Circuit
 
+Linear Hall Effect Sensors are connect in a circuit with an op-amp
 
 
 
-
-# LabJack and Code
-We use a LabJack U3-HV to control the motor and collect data. 
-
+# Control of Pendulum
+We use a LabJack U3-HV or an Oscilloscope to control the motor and collect data. 
 
 
 The process begins when a message is given to the program to be encrypted and initial conditions specified
-(though, in reality, the latter in unnecessary because each time they will be inherently different anyways). Once
-the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. The hall affect
-sensors on the surface walls will collected data by running a stream where each time the magnets on the pendulum
-pass near the sensor the stream output will read one where otherwise it will read zero (the sensors will likely begin
-collecting data after a brief period of time so that the system will already have diverged for non-identical initial
-conditions. This allows for more variability in the first portion of the key).
+(though, in reality, the latter in unnecessary because each time they will be different anyways). Once
+the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. 
 
 
-### Control of Pendulum
+For the pendulum to swing chaoticly we set a low frequency 
 
-For the pendulum to swing chaoticly we decrease the frequency of the motor to 
 
+The two big things are the cutoff voltage and obtaining chaotic motion.
 
 
 
@@ -89,9 +87,12 @@ Plot for cuttoff voltage value:
 
 ### Randomness
 
+There are a few places to look for randomness when looking at the data collected by the sensors.
 
+GRAPHS and analysis of them
 
-# Sensor Data
+Using our knowledge of aproximately where the data is systematic and where it is random, we set a cut
+
 
 
 
@@ -128,3 +129,4 @@ would be done quite fast.
 # Conclusion
 
 In this project w
+The use of hall effect sensors is not recommended for such a set up, they break very easily and something more reliable would serve much better. 

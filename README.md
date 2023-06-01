@@ -53,7 +53,7 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 ### Op-Amp Circuit
 
-<img width="980" alt="Screen Shot 2023-05-30 at 11 40 56 AM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/95555882-8c0f-4dd4-89f7-c37b6799e240">
+
 
 
 

@@ -68,11 +68,13 @@ The process begins when a message is given to the program to be encrypted and in
 (though, in reality, the latter in unnecessary because each time they will be different anyways). Once
 the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. 
 
+Choosing Frequency and comparing to the natural frequency. . . 
 
 For the pendulum to swing chaoticly we set a low frequency 
 
 
 The two big things are the cutoff voltage and obtaining chaotic motion.
+
 
 
 

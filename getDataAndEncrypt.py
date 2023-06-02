@@ -15,11 +15,11 @@ def getData(frequency, size, cutoff = 0.65):
         k = 0
         while k < trueFrequency:
             a1 = d.getAIN(0)
-            a2 = d.getAIN(1)
+            #a2 = d.getAIN(1)
             #a3 = d.getAIN(2)
             #a4 = d.getAIN(3)
             numbers = np.append(numbers, a1)
-            numbers = np.append(numbers, a2)
+            #numbers = np.append(numbers, a2)
             #numbers.append(a3)
             #numbers.append(a4)
             k = k+1

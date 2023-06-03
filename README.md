@@ -83,8 +83,6 @@ The two big things are the cutoff voltage and obtaining chaotic motion.
 Plot for cuttoff voltage value:
 
 
-<img width="369" alt="Screen Shot 2023-05-24 at 11 16 13 AM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/8978d65a-e768-4b37-9f1a-3c9e2ca1ad8a">
-
 
 
 ### Randomness

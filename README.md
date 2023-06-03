@@ -61,7 +61,7 @@ Linear Hall Effect Sensors are connect in a circuit with an op-amp
 
 
 # Control of Pendulum
-We use a LabJack U3-HV or an Oscilloscope to control the motor and collect data. 
+We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. 
 
 
 The process begins when a message is given to the program to be encrypted and initial conditions specified

@@ -27,7 +27,7 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
 | Part  | Quantity | Cost |
 | ------------- | ------------- | ------------- |
 | DC Gear Motor  | 3  | $44.97 |
-| Aluminium Rods  | 6  | Third Header |
+| Aluminium Rods  | 6  | $23.805 |
 | Flanged Ball Bearings  | 5  | $36.91 |
 | Bolts  | 20  | $11.50 |
 | Screws  | 25  | $11. |

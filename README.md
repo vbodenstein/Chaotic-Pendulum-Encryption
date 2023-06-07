@@ -110,14 +110,21 @@ From here we filter the data to further understand where the chaotic motion is o
 <img width="553" alt="Screen Shot 2023-06-07 at 2 07 03 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/dc70b951-85e4-44c9-862b-23aa1bd468d4">
 
 
-The filtered data:
+Using the low pass filter we get much clearer data which looks like this:
+
 
 Full Running Time          |  5-10 sec                 | 5-10 sec
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Filtered4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/0a899d9f-a1aa-4c3b-be39-dc0cdcc0a18d)  |  ![FIlteredChaotic4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/cdaf73c0-fd90-49a1-ad2e-9450ac9ee285) | ![FilteredDataOrdered2](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/5f61d397-ff19-4b6f-ac74-e3154c0f709c)
 
 
-This makes it clear where we need to look for the chaotic motion, and where to set the threshold for encryption data. 
+We look for the chaotic motion in regions where the motion is not sinusoidal; maybe it is cubic, or quadratic, but generally the choas causes these discrepencies in the sine wave. 
+
+
+The next step is to set a boundry, and let anything below the boundry be a one, and everything above the boundry be a zero. 
+
+
+<img width="1364" alt="Screen Shot 2023-06-07 at 2 17 11 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d0e13027-eba7-442d-b29d-715b2a2b2c07">
 
 
 

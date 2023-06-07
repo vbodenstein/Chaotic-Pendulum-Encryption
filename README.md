@@ -74,33 +74,29 @@ Circuit Diagram             |  Physical
 
 
 # Control of Pendulum
-We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. The process begins when a message is given to the program to be encrypted and initial conditions specified. Once the program is run, the pendulum begins oscillating until enough data is collected . 
+We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. The process begins when a message is given to the program to be encrypted and initial conditions specified. Once the program is run, the pendulum begins oscillating until enough data is collected. 
 
-# Pendulum design
+### Pendulum design
 
 <img width="179" alt="Screen Shot 2023-06-07 at 1 24 21 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/aeddee32-f7ab-49ac-a1ff-a2b2e1b109af">
 
 
+### Motion
+
 ![Untitled design-7](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/7b1fa93a-b0d1-4735-992e-43c29964d53f)
 
-We set up the pendulum on a 3D printed base. For the chaotic regimn, the ideal frequency is 2.5 Hz, this motion is shown above. The motor oscillates at 6 V, and 0.2 Amp.
+We set up the pendulum on a 3D printed base. For the chaotic regimn, the ideal frequency is 2 Hz, this motion is shown above. The motor oscillates at 6 V, and 0.2 Amp.
 
 
+![Untitled design-8](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/84e38877-7525-4d6a-bdcd-338ed04f42e3)
 
 
-Choosing Frequency and comparing to the natural frequency. . . 
-
-For the pendulum to swing chaoticly we set a low frequency 
-
-
-The two big things are the cutoff voltage and obtaining chaotic motion.
-
+Here the pendulum is set to 2.5 Hz, 6 V, 0.2 A. The motion is periodic, as there is not enough energy supplied by the motor to cause divergence. To find these two regimns we tested the pendulum at various frequencies and voltages. These numbers are specific to the our setup.
 
 
 
 ### Testing and Changes 
 
-Plot for cuttoff voltage value:
 
 
 

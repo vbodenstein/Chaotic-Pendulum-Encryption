@@ -43,7 +43,8 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
 For the setup we used three circuits, one to run the motor, another for the op-amp, and a third to connect three to four the sensors. 
 
 ### Motor circuit 
-Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
+
+Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor, this is then connected to a standard DC power supply.
 
 <img width="974" alt="Screen Shot 2023-05-15 at 5 27 41 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/761e181d-c835-4561-83f3-1964c36d5877">
 
@@ -58,15 +59,26 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 Linear Hall Effect Sensors are connect in a circuit with an op-amp
 
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+!<img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">  |  !<img width="179" alt="Screen Shot 2023-06-07 at 1 24 21 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/aeddee32-f7ab-49ac-a1ff-a2b2e1b109af">
+
 <img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">
+
+<img width="179" alt="Screen Shot 2023-06-07 at 1 24 21 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/aeddee32-f7ab-49ac-a1ff-a2b2e1b109af">
 
 
 
 # Control of Pendulum
-We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. The process begins when a message is given to the program to be encrypted and initial conditions specified (though, in reality, the latter in unnecessary because each time they will be different anyways). Once the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. 
+We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. The process begins when a message is given to the program to be encrypted and initial conditions specified. Once the program is run, the pendulum begins oscillating until enough data is collected . 
 
-# Pendulum motion 
+# Pendulum design
 ![Untitled design-7](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/7b1fa93a-b0d1-4735-992e-43c29964d53f)
+
+We set up the pendulum on a 3D printed base. For the chaotic regimn, the ideal frequency is 2.5 Hz, this motion is shown above. The motor oscillates at 6 V, and 0.2 Amp.
+
+
 
 
 Choosing Frequency and comparing to the natural frequency. . . 

@@ -63,12 +63,11 @@ Linear Hall Effect Sensors are connect in a circuit with an op-amp
 
 
 # Control of Pendulum
-We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. 
+We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. The process begins when a message is given to the program to be encrypted and initial conditions specified (though, in reality, the latter in unnecessary because each time they will be different anyways). Once the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. 
 
+# Pendulum motion 
+![Untitled design-7](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/7b1fa93a-b0d1-4735-992e-43c29964d53f)
 
-The process begins when a message is given to the program to be encrypted and initial conditions specified
-(though, in reality, the latter in unnecessary because each time they will be different anyways). Once
-the device is triggered, the fixed positions of the arms are released and the motor begins oscillating. 
 
 Choosing Frequency and comparing to the natural frequency. . . 
 

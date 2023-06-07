@@ -46,13 +46,19 @@ For the setup we used three circuits, one to run the motor, another for the op-a
 
 Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor, this is then connected to a standard DC power supply.
 
-<img width="974" alt="Screen Shot 2023-05-15 at 5 27 41 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/761e181d-c835-4561-83f3-1964c36d5877">
+Circuit Diagram             |  Physical
+:-------------------------:|:-------------------------:
+<img width="974" alt="Screen Shot 2023-05-15 at 5 27 41 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/761e181d-c835-4561-83f3-1964c36d5877">  |  <img width="380" alt="Screen Shot 2023-06-07 at 1 44 44 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/dfcd8c5d-4844-43e7-b7f6-bded4390f2a8">
+
 
 
 
 ### Sensor Circuit
 
-![circuit](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/f747b40a-b0e2-493b-96f8-a94cdae36696)
+Circuit Diagram             |  Physical
+:-------------------------:|:-------------------------:
+![circuit](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/f747b40a-b0e2-493b-96f8-a94cdae36696)  |  <img width="408" alt="Screen Shot 2023-06-07 at 1 44 36 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/2656bd21-4531-4f47-8fe4-42e9d1a0d6fb">
+
 
 
 ### Op-Amp Circuit

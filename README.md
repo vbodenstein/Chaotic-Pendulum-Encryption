@@ -118,13 +118,17 @@ Full Running Time          |  5-10 sec                 | 5-10 sec
 ![Filtered4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/0a899d9f-a1aa-4c3b-be39-dc0cdcc0a18d)  |  ![FIlteredChaotic4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/cdaf73c0-fd90-49a1-ad2e-9450ac9ee285) | ![FilteredDataOrdered2](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/5f61d397-ff19-4b6f-ac74-e3154c0f709c)
 
 
-We look for the chaotic motion in regions where the motion is not sinusoidal; maybe it is cubic, or quadratic, but generally the choas causes these discrepencies in the sine wave. 
-
-
-The next step is to set a boundry, and let anything below the boundry be a one, and everything above the boundry be a zero. 
+We look for regions where the motion is not sinusoidal; maybe it is cubic, or quadratic, but generally the random causes discrepencies in the sine wave. The next step is to set a boundry, and let anything below the boundry be a one, and everything above the boundry be a zero. 
 
 
 <img width="1364" alt="Screen Shot 2023-06-07 at 2 17 11 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d0e13027-eba7-442d-b29d-715b2a2b2c07">
+
+
+From here we can finally extract data by comaring the distance between peaks in the chaotic vs sinusoidal motion. 
+
+Full Running Time          |  5-10 sec                 | 5-10 sec
+:-------------------------:|:-------------------------:|:-------------------------:
+![NormalizedData1](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/05481b93-5f7a-4c35-a2c6-95c38ee39646)  |  ![NormalizedData1](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/05481b93-5f7a-4c35-a2c6-95c38ee39646) | ![NormalChaotic4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/6fd15be6-2708-4962-a3f4-433827fa685e)
 
 
 

@@ -58,6 +58,7 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor
 
 Linear Hall Effect Sensors are connect in a circuit with an op-amp
 
+<img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">
 
 
 

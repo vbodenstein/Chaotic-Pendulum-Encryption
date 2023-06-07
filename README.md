@@ -93,11 +93,32 @@ Here the pendulum is set to 2.5 Hz, 6 V, 0.2 A. The motion is periodic, as there
 
 ### Testing and Changes 
 
-The raw hall affect data looks as follows:
+The raw hall affect data:
 
-Full Running Time          |  Chaotic 5-10 sec                 | Sinusoidal 5-10 sec
+Full Running Time          |  5-10 sec                 | 5-10 sec
 :-------------------------:|:-------------------------:|:-------------------------:
 ![RawData2](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/2e1e69ca-5e45-4119-9946-db18a0fd5c2b)  |  ![RawDataChaotic2](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/66dc4f40-acb3-436a-808e-b154a636f8e1) | ![RawDataOrder2](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/bdf087de-5636-48bd-90f2-11e6a4a23b45)
+
+We plot the direct voltage picked up by the hall affect sensors. Here is another example of what the output may look like:
+
+
+![RawDataChaotic3](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/c2c9c810-e2b3-4dd7-b9a6-92ff752de23f)
+
+
+From here we filter the data to further understand where the chaotic motion is occuring and its magnitude. The low pass filter takes the large spikes out of the picture:
+
+<img width="553" alt="Screen Shot 2023-06-07 at 2 07 03 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/dc70b951-85e4-44c9-862b-23aa1bd468d4">
+
+
+The filtered data:
+
+Full Running Time          |  5-10 sec                 | 5-10 sec
+:-------------------------:|:-------------------------:|:-------------------------:
+![Filtered4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/0a899d9f-a1aa-4c3b-be39-dc0cdcc0a18d)  |  ![FIlteredChaotic4](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/cdaf73c0-fd90-49a1-ad2e-9450ac9ee285) | ![FilteredDataOrdered2](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/5f61d397-ff19-4b6f-ac74-e3154c0f709c)
+
+
+This makes it clear where we need to look for the chaotic motion, and where to set the threshold for encryption data. 
+
 
 
 

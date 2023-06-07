@@ -60,13 +60,10 @@ Using a DRV8833 motor driver we connect a 12V, 100RPM DC motor, this is then con
 Linear Hall Effect Sensors are connect in a circuit with an op-amp
 
 
-Solarized dark             |  Solarized Ocean
+Circuit Diagram             |  Physical
 :-------------------------:|:-------------------------:
-!<img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">  |  !<img width="179" alt="Screen Shot 2023-06-07 at 1 24 21 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/aeddee32-f7ab-49ac-a1ff-a2b2e1b109af">
+!<img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">  |  !<img width="596" alt="Screen Shot 2023-06-07 at 1 41 58 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/82695fac-90fd-4860-bd45-9a6716b4b97d">
 
-<img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">
-
-<img width="179" alt="Screen Shot 2023-06-07 at 1 24 21 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/aeddee32-f7ab-49ac-a1ff-a2b2e1b109af">
 
 
 
@@ -74,6 +71,10 @@ Solarized dark             |  Solarized Ocean
 We use a LabJack U3-HV and a DC Power Supply to control the motor and collect data. The process begins when a message is given to the program to be encrypted and initial conditions specified. Once the program is run, the pendulum begins oscillating until enough data is collected . 
 
 # Pendulum design
+
+<img width="179" alt="Screen Shot 2023-06-07 at 1 24 21 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/aeddee32-f7ab-49ac-a1ff-a2b2e1b109af">
+
+
 ![Untitled design-7](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/7b1fa93a-b0d1-4735-992e-43c29964d53f)
 
 We set up the pendulum on a 3D printed base. For the chaotic regimn, the ideal frequency is 2.5 Hz, this motion is shown above. The motor oscillates at 6 V, and 0.2 Amp.

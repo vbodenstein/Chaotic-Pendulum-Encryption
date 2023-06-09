@@ -178,7 +178,7 @@ The OTP was used because, personally, I really like the idea that a One Time Pad
 
 
 
-#### Second run
+### Second Run, Same Message
 
 **Output Binary:**
 111000100110100010010010010100101000010010010010101010010010101101001010010011010010101000110010010010100001000000100011010001000000100011000000010101010101010010101010010001101011101010011101010000100110010100101100100100100001000011000011010001001101001010001100010000101000101000110000. . . .
@@ -186,71 +186,76 @@ The OTP was used because, personally, I really like the idea that a One Time Pad
 **Key:** q4I)BIT\x95\xa5&\x95\x19%\x08\x11\xa2\x04`*\xaaU#]N\xa12\x96I\x08a\xa2iF!E\x18\x04\x8a\x86"\x12Q\xa2\x8e%ZE\x10\x92\xa5EUZ$\x86\xe4\x8ayQ\x85\x86\x82\xd2T\x88D\x96)F\x8c(\x84eSn\x88A\x95$\x9c\x91\xa2EUD\x18\x96
 
 
-
-
+#### Encrypted Data:
 Qu.H+''\xe1\x85U\xe1lUau\xcbpx19\n\xde=F}\txceV\xe5i|\t\xc7\x045D)na\xf9\xa6A}?\xd6\xebK>eyxfc\x85343J\xa8
-
-
-
 
 
 
 ### Ex. 2
 
-We can compare the normalizad data for the ordered motion vs. the chaotic motion. 
+We can compare the normalizad data for the ordered motion vs. the chaotic motion. This run gave us the expected pattern for the ordered data, with a few areas of deviation.
 
-Ordered:
-1111110011011100100011100001100111001101110011001101111011001001110011101111111011011110110011001110011011001100111011000100100011001110011011011100110110011
+#### Ordered:
 
-Chaotic:
+0101010101010101010101010101010101010101010101010101010010101010101010001010101010101010101010111010100010101011010101010101010101010101010101010
+
+#### Chaotic:
+
 11000100001010101001010100000000011000101000101010101000001001100010010100100010001101000000110100000000001001000100100000001000100010100000001
 
-Encryption with the chaotic:
-The input is: b' hello world' 
 
-The key is: b'b\x15J\x801ET\x13\x12\x91\x1a\x06\x80\x12$\x04E\x01' 
+#### Encryption with the chaotic:
 
-The encrypted data is: b'B}/\xec]*#3e\xfehj\xe4' 
+#### The key:
 
-The decrypted data is:  hello world
+b'b\x15J\x801ET\x13\x12\x91\x1a\x06\x80\x12$\x04E\x01' 
+
+#### Encrypted Message: 
+
+B}/\xec]*#3e\xfehj\xe4
+
 
 
 ### Ex. 3 -- plts are labeled with no.4
 
-Ordered:
+#### Message to Encrypt:
+
+Abracadabra
+
  
-1101110010011100110111001100110011011100100110011000110111001100110011001100110011001100110011010000110010001100110111001100110011001100110011001100110011001
- 
-Chaotic:
+#### Chaotic:
 
 110110010001000001001110101001001001001100001010010011100011000100100010100110101010010001001001010100101010110000101010101001000000010100
 
 
-Chaotic: 
+#### Key:
 
-The input is: b' Abracadabra' 
+\x03dA:\x92L)8\xc4\x8aj\x91%J\xb0\xaa\x90\x14
 
-The key is: b'\x03dA:\x92L)8\xc4\x8aj\x91%J\xb0\xaa\x90\x14' 
+#### The encrypted data is:
 
-The encrypted data is: b'#%#H\xf3/H\\\xa5\xe8\x18\xf0' 
-
-The decrypted data is:  Abracadabra
-
-
-Ordered:
-
-What do you want to encrypt?Abracadabra
-The input is: b'Abracadabra' 
-
-The key is: b'\x1b\x93\x9b\x99\x9b\x931\xb9\x99\x99\x99\x99\xa1\x91\x9b\x99\x99\x99\x99\x99' 
-
-The encrypted data is: b'Z\xf1\xe9\xf8\xf8\xf2U\xd8\xfb\xeb\xf8' 
-
-The decrypted data is: Abracadabra
+#%#H\xf3/H\\a5xe8\rd14x0
 
 
 
-Notice the repetition in the ordered sequence as apposed to the chaotic sequence for the encrypted data. 
+
+
+#### Ordered:
+ 
+1101110010011100110111001100110011011100100110011000110111001100110011001100110011001100110011010000110010001100110111001100110011001100110011001100110011001
+
+
+#### Key: 
+
+\x1b\x93\x9b\x99\x9b\x931\xb9\x99\x99\x99\x99\xa1\x91\x9b\x99\x99\x99\x99\x99 
+
+#### The encrypted data is: 
+
+Z\xf1\xe9\xf8\xf8\xf2U\xd8\xfb\xeb\xf8
+
+
+
+Notice: the repetition in the ordered sequence as apposed to the chaotic sequence for the encrypted data.
 
 # Conclusion
 
@@ -266,3 +271,5 @@ Better understanding the distribution of randomness.
 Increasing the rate of random number generation.
 
 Exploring more efficient cryptographic alternatives (e.g. public key encryption)
+
+Overall this project was successful 

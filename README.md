@@ -80,6 +80,7 @@ Circuit Diagram             |  Physical
 ## Sensors
 Hall affect sensors detect the magnitude of a magnetic field using the Hall effect. We attach magents to the pendulum arms and as they swing past the sensors, we can pick up changes in voltage. The output from the sensor is called the Hall Voltage. 
 
+:-------------------------:|:-------------------------:
 <img width="934" alt="Screen Shot 2023-06-08 at 10 30 11 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/eee6deb5-d757-47b1-ab5e-bad56ca11834"> | ![IMG_8422](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/9b7f8b0e-bdc5-4301-8646-e7768f052035)
 
 
@@ -267,7 +268,7 @@ Z\xf1\xe9\xf8\xf8\xf2U\xd8\xfb\xeb\xf8
 Notice: the repetition in the ordered sequence as apposed to the chaotic sequence for the encrypted data.
 
 # Conclusion
-![Untitled design-8](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/0d2cbcbc-5560-444d-a7b0-59a710cef3ec)
+![Untitled design-7](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/8ae67c65-96d8-4c53-b858-4c43000a5661)
 
 In this project we successfully created a chaotic system and used it to encrypt and decrypt messages. The level of "randomness" in the keys generated depends greatly on the frequency of oscillation, as we saw by comparing 3.0 Hz and 2.5 Hz oscillations. The messages encrypted with the choatic regimn (3.0 Hz) show significantly less repitition than those encrypted with the 2.5 Hz when comparing the raw data, and the encrypted messages. 
 

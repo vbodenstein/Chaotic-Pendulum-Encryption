@@ -6,23 +6,33 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
 <img width="448" alt="Screen Shot 2023-06-01 at 3 34 16 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/81fcaa43-f65b-420c-b719-8bccc97bdfee">
 
 
-## Table of contents
+# Table of contents
+- [Motivation]
 - [Budget](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#budget)
 - [Circuits](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#circuits)
     - [Motor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#motor-circuit)
     - [Sensor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#sensor-circuit)
     - [Op-amp](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#op-amp-circuit)
 - [Labjack Control and Code](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#labjack-and-code)
-- [Pendulum Control](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#control-of-pendulum)
-    - [Tests](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#testing-and-changes)
-    - [Randomness](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#randomness)
-- [Sensor Data](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#sensor-data)
+- [Control of Pendulum](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#control-of-pendulum)
+    - [Motion](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#testing-and-changes)
+    - [Testing](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#randomness)
+    - [Randomness]
+-[Encryption Method]
 - [Results](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#results)
-    - [Examples](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#examples)
+    - [Example 1](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#examples)
+    - [Example 2]
+    - [Example 3]
 - [Conclusion](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#conclusion)
 
 
-## Budget
+
+# Motivation
+
+
+
+
+# Budget
 
 | Part  | Quantity | Cost |
 | ------------- | ------------- | ------------- |
@@ -39,7 +49,7 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
 
 
 
-## Circuits 
+# Circuits 
 For the setup we used three circuits, one to run the motor, another for the op-amp, and a third to connect three to four the sensors. 
 
 ### Motor circuit 
@@ -154,11 +164,10 @@ To make the OTP secure, the key must be at least the length of the message, and 
 The OTP was used because, personally, I really like the idea that a One Time Pad is unbreakable. Even though in practice it is considered malleable, the encryption itself is perfect. A [University of Chicago lecture](https://www.google.com) shows a proof for the OTP's perfectly secure encryption, as well as other things. Note: many times rather than using a true OTP, random number generators, in essence, stretch out a sequence of random numbers to match the length of the message. This is however unsafe since these number generators are actually deterministic, at least to some extent. 
 
 
+# Results
 
-### Examples of encryption and decryption: 
 
-
-### Ex. 1
+### Example One:
 
 **Message we gave the system to encrypt:** Against stupidity the Gods themselves contend in vain.
 
@@ -178,7 +187,7 @@ The OTP was used because, personally, I really like the idea that a One Time Pad
 
 
 
-### Second Run, Same Message
+### Second Run, Same Message:
 
 **Output Binary:**
 111000100110100010010010010100101000010010010010101010010010101101001010010011010010101000110010010010100001000000100011010001000000100011000000010101010101010010101010010001101011101010011101010000100110010100101100100100100001000011000011010001001101001010001100010000101000101000110000. . . .
@@ -191,7 +200,7 @@ Qu.H+''\xe1\x85U\xe1lUau\xcbpx19\n\xde=F}\txceV\xe5i|\t\xc7\x045D)na\xf9\xa6A}?\
 
 
 
-### Ex. 2
+### Example Two:
 
 We can compare the normalizad data for the ordered motion vs. the chaotic motion. This run gave us the expected pattern for the ordered data, with a few areas of deviation.
 
@@ -216,7 +225,7 @@ B}/\xec]*#3e\xfehj\xe4
 
 
 
-### Ex. 3 -- plts are labeled with no.4
+### Example three (for data view Data.4):
 
 #### Message to Encrypt:
 
@@ -259,7 +268,7 @@ Notice: the repetition in the ordered sequence as apposed to the chaotic sequenc
 
 # Conclusion
 
-In this project w
+In this project we 
 The use of hall effect sensors is not recommended for such a set up, they break very easily and something more reliable would serve much better. 
 
 There is a endless amount of data analysis one can do to find the most randomized keys.

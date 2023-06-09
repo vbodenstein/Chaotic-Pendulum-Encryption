@@ -13,6 +13,7 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
     - [Motor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#motor-circuit)
     - [Sensor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#sensor-circuit)
     - [Op-amp](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#op-amp-circuit)
+-[Sensors]
 - [Labjack Control and Code](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#labjack-and-code)
 - [Control of Pendulum](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#control-of-pendulum)
     - [Motion](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#testing-and-changes)
@@ -81,6 +82,14 @@ Circuit Diagram             |  Physical
 !<img width="654" alt="Screen Shot 2023-06-07 at 1 05 00 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/d66b2220-7c99-4e32-b2e1-29581b4d6da8">  |  !<img width="596" alt="Screen Shot 2023-06-07 at 1 41 58 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/82695fac-90fd-4860-bd45-9a6716b4b97d">
 
 
+
+## Sensors
+Hall affect sensors detect the magnitude of a magnetic field using the Hall effect. We attach magents to the pendulum arms and as they swing past the sensors, we can pick up changes in voltage. The output from the sensor is called the Hall Voltage. 
+
+
+<img width="934" alt="Screen Shot 2023-06-08 at 10 30 11 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/eee6deb5-d757-47b1-ab5e-bad56ca11834">
+
+![IMG_8422](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/9b7f8b0e-bdc5-4301-8646-e7768f052035)
 
 
 # Control of Pendulum

@@ -7,13 +7,12 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
 
 
 # Table of contents
-- [Motivation]
 - [Budget](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#budget)
 - [Circuits](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#circuits)
     - [Motor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#motor-circuit)
     - [Sensor](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#sensor-circuit)
     - [Op-amp](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#op-amp-circuit)
--[Sensors]
+- [Sensors](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion#sensors)
 - [Labjack Control and Code](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#labjack-and-code)
 - [Control of Pendulum](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#control-of-pendulum)
     - [Motion](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#testing-and-changes)
@@ -25,11 +24,6 @@ Since we can collect data very quickly, an encryption of this sort is theoretica
     - [Example 2]
     - [Example 3]
 - [Conclusion](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/blob/main/README.md#conclusion)
-
-
-
-# Motivation
-
 
 
 
@@ -86,10 +80,7 @@ Circuit Diagram             |  Physical
 ## Sensors
 Hall affect sensors detect the magnitude of a magnetic field using the Hall effect. We attach magents to the pendulum arms and as they swing past the sensors, we can pick up changes in voltage. The output from the sensor is called the Hall Voltage. 
 
-
-<img width="934" alt="Screen Shot 2023-06-08 at 10 30 11 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/eee6deb5-d757-47b1-ab5e-bad56ca11834">
-
-![IMG_8422](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/9b7f8b0e-bdc5-4301-8646-e7768f052035)
+<img width="934" alt="Screen Shot 2023-06-08 at 10 30 11 PM" src="https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/eee6deb5-d757-47b1-ab5e-bad56ca11834"> | ![IMG_8422](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/9b7f8b0e-bdc5-4301-8646-e7768f052035)
 
 
 # Control of Pendulum
@@ -100,7 +91,7 @@ We use a LabJack U3-HV and a DC Power Supply to control the motor and collect da
 
 ![Untitled design-7](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/7b1fa93a-b0d1-4735-992e-43c29964d53f)
 
-We set up the pendulum on a 3D printed base. For the chaotic regimn, the ideal frequency is 2 Hz, this motion is shown above. The motor oscillates at 6 V, and 0.2 Amp.
+We set up the pendulum on a 3D printed base. For the chaotic regimn, the ideal frequency is 3 Hz, this motion is shown above. The motor oscillates at 6 V, and 0.2 Amp.
 
 
 ![Untitled design-8](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/84e38877-7525-4d6a-bdcd-338ed04f42e3)
@@ -276,18 +267,12 @@ Z\xf1\xe9\xf8\xf8\xf2U\xd8\xfb\xeb\xf8
 Notice: the repetition in the ordered sequence as apposed to the chaotic sequence for the encrypted data.
 
 # Conclusion
+![Untitled design-8](https://github.com/vbodenstein/Chaotic-Pendulum-Encrytion/assets/133536500/0d2cbcbc-5560-444d-a7b0-59a710cef3ec)
 
-In this project we 
-The use of hall effect sensors is not recommended for such a set up, they break very easily and something more reliable would serve much better. 
+In this project we successfully created a chaotic system and used it to encrypt and decrypt messages. The level of "randomness" in the keys generated depends greatly on the frequency of oscillation, as we saw by comparing 3.0 Hz and 2.5 Hz oscillations. The messages encrypted with the choatic regimn (3.0 Hz) show significantly less repitition than those encrypted with the 2.5 Hz when comparing the raw data, and the encrypted messages. 
 
-There is a endless amount of data analysis one can do to find the most randomized keys.
+While building this project, we found that the use of hall effect sensors is not recommended for such a set up, they break very easily and don't produce large enough deviations from the noise. Changing the way we detect the motion would increase the efficiency, and amount of time it takes to produce data. The next thing to focus on would be the rate at which we aquire random data. Currently, it takes approximately five mintues to encrypt a single sentence--say of this size. In practice, this is very slow, so increasing the number of sensors, and analyzing the data in a more effective way could produce much faster encryption. Another way to increase speed is by exploring more efficient cryptographic alternatives for example, public key encryption.
 
-The great thing is that with the chatoic system the key will obvioulsy not be guessed. Hypothetically if we use the sinusoidal wave for encryption we get a string of zeros and ones, which will encrypt the message without problems. Obviously this is not safe since it is very easy to deduce they key. 
+The great thing is that with the chatoic system, the key will obvioulsy not be guessed. Hypothetically if we use the sinusoidal wave for encryption we get a string of zeros and ones, which will encrypt the message without problems. Obviously this is not safe since it is very easy to deduce they key and is susceptible to hackers, so the more random the key, the better the encryption. 
 
-Better understanding the distribution of randomness.
-
-Increasing the rate of random number generation.
-
-Exploring more efficient cryptographic alternatives (e.g. public key encryption)
-
-Overall this project was successful 
+Overall, we show that a double pendulum can be a successful random number generator for encryption. The symmetric stream cipher is only one method of using the collected data for encryption. Combined with an alternate cryptographic system and nicer sensors, a double pendulum could be a viable candidate for secure encryption. 
